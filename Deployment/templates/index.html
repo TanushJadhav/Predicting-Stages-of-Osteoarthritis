@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Stages of Osteoarthritis</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Image Classifier</h1>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" name="image" id="image-input" accept="image/jpeg, image/jpg, image/png">
+                <br>
+                <img src="#" id="selected-image" alt="Selected Image"
+                    style="display:none; max-width: 100%; height: auto;">
+                <br>
+                <button type="submit">Upload</button>
+            </form>
+            <div id="prediction"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData();
+            formData.append('image', document.getElementById('image-input').files[0]);
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+            document.getElementById('prediction').innerText = `Predicted class: ${result.predicted_class}`;
+        });
+
+        document.getElementById('image-input').addEventListener('change', function () {
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.getElementById('selected-image');
+                    img.src = e.target.result;
+                    img.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+
+</html>

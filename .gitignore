@@ -1,2 +1,4 @@
 Dataset/
-GAN/Stage_4/
+# GAN/Dataset/
+# GAN/generated_images
+GAN/

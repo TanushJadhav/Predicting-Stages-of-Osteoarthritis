@@ -1,4 +1,4 @@
-# Predicting Stages of Osteoarthritis
+# Predicting Stages of Osteoarthritis 🦵
 
 ## What is Osteoarthritis
 Osteoarthritis, often abbreviated as OA, It is a non-inflammatory type of Arthritis and a degenerative joint disease that primarily affects the cartilage in your joints. Cartilage is the slippery tissue that covers the ends of bones in a joint, allowing them to glide smoothly over each other during movement. In osteoarthritis, the cartilage breaks down and wears away, leading to pain, stiffness, and swelling in the affected joint(s). Over time, this can result in the bones rubbing against each other, causing further damage and discomfort.

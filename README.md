@@ -4,7 +4,7 @@
 Osteoarthritis, often abbreviated as OA, It is a non-inflammatory type of Arthritis and a degenerative joint disease that primarily affects the cartilage in your joints. Cartilage is the slippery tissue that covers the ends of bones in a joint, allowing them to glide smoothly over each other during movement. In osteoarthritis, the cartilage breaks down and wears away, leading to pain, stiffness, and swelling in the affected joint(s). Over time, this can result in the bones rubbing against each other, causing further damage and discomfort.
 Osteoarthritis is commonly associated with aging, as the wear and tear on joints accumulate over time. However, it can also be caused by factors such as joint injuries, obesity, genetics, and certain occupations or activities that put repetitive stress on particular joints. The lifetime risk of developing OA is 50%.
 
-## Osteoarthritis of the Knee
+## Osteoarthritis of the Knee?
 Osteoarthritis of the knee occurs when the cartilage in the knee joint breaks down, allowing the bones to rub against each other. Because the knee joint, which is the most complex joint in the human body, bears the greatest load among all other joints, it is therefore most susceptible to the development of OA. This friction causes pain, stiffness, and sometimes swelling in the knees. It is the most common form of osteoarthritis and is characterized by high morbidity and disability rates.
 
 ### Stages of OA
